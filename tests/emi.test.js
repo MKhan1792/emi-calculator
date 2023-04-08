@@ -18,5 +18,3 @@ test('Should calculate correct EMI installments', () => {
 
   expect(EMI.rnd(loan.principalSum + loan.interestSum)).toBe(loan.sum)
 })
-
-
